@@ -6,6 +6,6 @@ def defang_url(url):
     return url
 
 # Example usage
-malicious_url = "
+malicious_url = input("Enter a URL to defang: ")
 print(defang_url(malicious_url))
  
